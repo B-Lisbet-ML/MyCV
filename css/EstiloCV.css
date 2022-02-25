@@ -1,0 +1,102 @@
+/*-------------------MENU-------------------*/
+body.Menu {
+    margin: 0;
+    /*background-color: rgb(155, 54, 133);*/
+    background-repeat: repeat;
+    background-image: url("../img/TG.jpg");
+}
+div.Inicio{
+    padding:10px 50px;
+    color: rgb(255, 37, 146);
+    font-size: 25px;
+}
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+}
+h1.Menu{
+    font-family:'Courier';
+    text-align: center;
+}
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+    display: block;
+    color: rgb(255, 0, 200);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family:Courier;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: rgb(163, 15, 131);}
+
+ul.topnav li a.active {background-color: rgb(117, 0, 92);}
+
+ul.topnav li.right {float: right; background-color: rgb(255, 231, 250);}
+/*-------------------MENU-------------------*/
+
+/*-------------------VIDEO-------------------*/
+div.video{
+    text-align:center
+}
+/*-------------------VIDEO-------------------*/
+/*-------------------IMAGEN-------------------*/
+div.img{
+    text-align:center
+}
+/*-------------------IMAGEN-------------------*/
+
+/*-------------------Textos-------------------*/
+div.Titulos{
+    font-family:'AR BONNIE';
+    text-align: center;
+    font-size: 20px;
+}
+div.Cuerpo{
+    padding:0px 80px;
+
+    font-family:'Goudy Stout';
+        font-size: 10px;
+}
+h2{
+    padding:0px 50px;
+    font-family: 'Courier New';
+    font-size: 20px;
+}
+ul.Cuerpo li{
+    display: block;
+}
+/*-------------------Textos-------------------*/
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 900px){
+    ul.topnav li.right,
+    ul.topnav li {float: none;}
+    body.Menu {
+        /*background-color: rgb(173, 98, 157);*/
+        background-image: url("../img/TP.jpg"); 
+    }
+    ul.topnav {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: rgb(83, 0, 56);
+    }
+    div.Inicio{
+        padding:10px 50px;
+        color: rgb(255, 225, 240);
+        font-size: 25px;
+    }
+}
